@@ -24,5 +24,7 @@ public class Player extends Actor{
         if(Bet > 0) {         //Ensures nothing can be done before the ante
             Bet = Bet + Bet;
         }
-    }   
+
+    }
+    
 }
